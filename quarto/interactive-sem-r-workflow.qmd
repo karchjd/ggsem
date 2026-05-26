@@ -205,7 +205,7 @@ To reproduce Figure 5, you can download the metadata from online, and load it in
 www.smin95.com/fig5.rds
 ```
 
-This image can also be loaded in script-based workflow using these codes below into a **ggplot** output directly using the metadata (more information in Chapter 17).
+This image can also be loaded in script-based workflow using these codes below into a **ggplot** output directly using the metadata (more information in Chapter 15).
 
 ```{r}
 #| warning: false

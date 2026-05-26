@@ -117,7 +117,7 @@ You can install the stable version of `ggsem` from CRAN:
 #| eval: false 
 # install.packages(c("colourpicker", "DT", "DiagrammeR", "memoise", "shiny", "shinyjs", "svglite"), dependencies = TRUE)
 
-install.packages("ggsem") # version 0.9.9
+install.packages("ggsem") # version 1.0.0
 ```
 
 This website was created with the development version of `ggsem`, which can be downloaded from Github:
@@ -187,6 +187,8 @@ In this workflow, statistical models are estimated externally, and ggsem operate
     -   Note: These models are internally translated to `lavaan` objects for rendering.
 
 -   `lavaanPlot`: `grViz` objects created using `diagrammeR` through the `lavaanPlot` package.
+
+-   `INLAvaan`: A new package for near-Bayesian results of structural models. Thanks to [\@haziqj](https://github.com/haziqj) for [contributing](https://github.com/smin95/ggsem/pull/1) this update!
 
 **Network Objects (More Info on Chapter 9):**
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Seung Hyun Min">
-<meta name="dcterms.date" content="2026-01-28">
+<meta name="dcterms.date" content="2026-05-26">
 
 <title>ggsem: Reproducible Visualization of SEM and Related Models in R</title>
 <style>
@@ -371,7 +371,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 28, 2026</p>
+      <p class="date">May 26, 2026</p>
     </div>
   </div>
   
@@ -500,7 +500,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(c("colourpicker", "DT", "DiagrammeR", "memoise", "shiny", "shinyjs", "svglite"), dependencies = TRUE)</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"ggsem"</span>) <span class="co"># version 0.9.9</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"ggsem"</span>) <span class="co"># version 1.0.0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>This website was created with the development version of <code>ggsem</code>, which can be downloaded from Github:</p>
 <div class="cell">
@@ -557,6 +557,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Note: These models are internally translated to <code>lavaan</code> objects for rendering.</li>
 </ul></li>
 <li><p><code>lavaanPlot</code>: <code>grViz</code> objects created using <code>diagrammeR</code> through the <code>lavaanPlot</code> package.</p></li>
+<li><p><code>INLAvaan</code>: A new package for near-Bayesian results of structural models. Thanks to <a href="https://github.com/haziqj">@haziqj</a> for <a href="https://github.com/smin95/ggsem/pull/1">contributing</a> this update!</p></li>
 </ul>
 <p><strong>Network Objects (More Info on Chapter 9):</strong></p>
 <ul>
