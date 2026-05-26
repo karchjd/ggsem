@@ -12,7 +12,7 @@
 ### Why use ggsem for SEM Visualization?
 * **Interactive Parameter Visualization**: Direct manipulation of nodes, edges, and labels without manual coding of coordinates.
 * **Multi-Group SEM Support**: Easily create side-by-side or composite visualizations for multi-group SEM diagrams.
-* **Workflow Integration**: Seamlessly import model objects from **lavaan**, **blavaan**, **OpenMx**, **tidySEM**, and **semPlot** etc (from 10 classes of objects, 14 packages).
+* **Workflow Integration**: Seamlessly import model objects from **lavaan**, **blavaan**, **OpenMx**, **tidySEM**, and **semPlot** etc (from 10 classes of objects, 13 packages).
 * **Complete Reproducibility**: Export figure metadata to recreate or modify your **ggplot2** diagrams via script at any time.
 
 ---
