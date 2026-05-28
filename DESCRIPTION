@@ -1,7 +1,7 @@
 Package: ggsem
 Type: Package
 Title: Interactive Structural Equation Modeling (SEM) and Multi-Group Path Diagrams
-Version: 1.0.0
+Version: 1.0.0.1
 Authors@R: person(
       given = "Seung Hyun",
       family = "Min",

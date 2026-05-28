@@ -1,5 +1,5 @@
-## version 0.9.9
+## version 1.0.0
 
-This is the submission of the **ggsem** package (version 0.9.9) to CRAN. Some changes include:
+This is the submission of the **ggsem** package (version 1.0.1) to CRAN. Some changes include:
 
-* Infinite reactivity loop is no longer present.
+* Resolved issue with `colourpicker()`.
