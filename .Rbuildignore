@@ -13,3 +13,4 @@
 ^\.RData
 ^\.Ruserdata
 ^\.Rproj\.user$
+^LICENSE\.md$

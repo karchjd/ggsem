@@ -10,7 +10,7 @@ Authors@R: person(
     )
 Maintainer: Seung Hyun Min <seung.min@mail.mcgill.ca>
 Description: Provides an interactive workflow for visualizing structural equation modeling (SEM), multi-group path diagrams, and network diagrams in R. Users can directly manipulate nodes and edges to create publication-quality figures while maintaining statistical model integrity. Supports integration with 'lavaan', 'OpenMx', 'tidySEM', and 'blavaan' etc. Features include parameter-based aesthetic mapping, generative AI assistance, and complete reproducibility by exporting metadata for script-based workflows. 
-License: GPL-2
+License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 Depends:
