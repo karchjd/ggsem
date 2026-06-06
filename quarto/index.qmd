@@ -117,7 +117,7 @@ You can install the stable version of `ggsem` from CRAN:
 #| eval: false 
 # install.packages(c("colourpicker", "DT", "DiagrammeR", "memoise", "shiny", "shinyjs", "svglite"), dependencies = TRUE)
 
-install.packages("ggsem") # version 1.0.0
+install.packages("ggsem") # version 1.0.0.1
 ```
 
 This website was created with the development version of `ggsem`, which can be downloaded from Github:
@@ -199,3 +199,9 @@ In this workflow, statistical models are estimated externally, and ggsem operate
 -   `qgraph`: Network objects created with `qgraph` (excluding SEM-style `qgraph` objects).
 
 This design allows heterogeneous model outputs—SEM and network-based—to be visualized within a shared, reproducible framework while preserving each package’s native statistical interpretation.
+
+## Citation
+
+If you use *ggsem* in your workflow, please consider citing this paper. We would be very grateful.
+
+Min, S. H., & Gong, L. (2026). *ggsem*: A Parameter-Linked Workflow for Reproducible Visual Refinement and Comparison of Structural Models in R. [osf.io/preprints/psyarxiv/5jpxg_v1](https://osf.io/preprints/psyarxiv/5jpxg_v1)
